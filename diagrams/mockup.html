@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Wordle Mock</title>
+
+    <style>
+		.board {
+			width: 500px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		h2 {
+			background-color: gray;
+			letter-spacing: 5px;
+			color: black;
+		}
+		
+		.green {
+			background-color: green;
+		}
+		
+		.yellow {
+			background-color: yellow;
+		}
+    </style>
+
+</head>
+    
+<body>
+	<div class="board">
+		<h2><span class="green">W</span>ORD</h2>
+		<h2>HURP</h2>
+		<h2><span class="green">W</span><span class="yellow">A</span>KE</h2>
+		<h2>____</h2>
+		<h2>____</h2>
+		<h2>____</h2>
+	</div>
+	
+	<div class="board">
+		<form>
+			<label for="guess">Guess a 4 letter word:</label><br>
+			 <input type="text" id="guess" name="guess" maxlength="4">
+		</form>
+	</div>
+</body>
+
+</html> 
